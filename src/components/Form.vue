@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>tYGiii</h1>
+  <div class="login">
+    <h1>Login page</h1>
     <input
       type="text"
       placeholder="Enter your name"
@@ -61,3 +61,12 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.login {
+  color: rgb(236, 142, 18);
+  background-color: bisque;
+  width: 200px;
+  margin-left: 45%;
+}
+</style>
