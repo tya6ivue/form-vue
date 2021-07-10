@@ -1,18 +1,27 @@
 <template>
-  <Form />
+  <div>
+    <Form />
+    <formValidation />
+    <!-- <Filter /> -->
+  </div>
 </template>
 
 <script>
+// import Filter from "./components/Filter.vue";
 import Form from "./components/Form.vue";
+import FormValidation from "./components/FormValidation.vue";
 export default {
   name: "App",
   components: {
     Form,
+    FormValidation,
+    // Filter,
   },
 };
 </script>
 
-<style>
+<style
+    FormValidation>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

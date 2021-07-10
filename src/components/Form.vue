@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <h1>Login page</h1>
+    <h1>Simple Login page</h1>
     <input
       type="text"
       placeholder="Enter your name"
